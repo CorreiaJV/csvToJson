@@ -2,11 +2,12 @@ import * as express from "express";
 import * as cors from 'cors';
 import router from "./routes/routes";
 import databaseConnect from "./config/database";
-
 const app = express();
 
 const PORT = process.env.APP_PORT || 5000;
 
+
+  
 databaseConnect();
 
 app.use(cors());
