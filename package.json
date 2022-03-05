@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@types/mz": "^2.7.4",
     "csvtojson": "^2.0.10"
   }
 }
